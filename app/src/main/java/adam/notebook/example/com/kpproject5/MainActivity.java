@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     CarouselView carouselView;
     int [] gambarCarousel = {R.drawable.nature,R.drawable.natureone,R.drawable.naturetwo,R.drawable.naturethree};
 
-    private ImageButton btn_fav,btn_profile,btn_cart;
+    private ImageButton btn_fav,btn_profile,btn_intro;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +64,15 @@ public class MainActivity extends AppCompatActivity {
            @Override
            public void onClick(View v) {
                Intent i = new Intent(MainActivity.this, ProfileActivity.class);
+               startActivity(i);
+           }
+       });
+
+       ImageButton btn_intro = (ImageButton)findViewById(R.id.imageButton2);
+       btn_intro.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent i = new Intent (MainActivity.this,Introduction.class);
                startActivity(i);
            }
        });
