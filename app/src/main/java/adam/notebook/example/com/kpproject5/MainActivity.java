@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     CarouselView carouselView;
     int [] gambarCarousel = {R.drawable.nature,R.drawable.natureone,R.drawable.naturetwo,R.drawable.naturethree};
 
-    private ImageButton btn_fav,btn_profile;
+    private ImageButton btn_fav,btn_profile,btn_cart;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

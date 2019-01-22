@@ -11,9 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".User.ProfileActivity"></activity>
-        <activity android:name=".Recycler.RecyclerActivity"/>
-        <activity android:name=".Recycler.GalleryActivity"/>
+        <activity android:name=".Introduction"></activity>
+        <activity android:name=".User.ProfileActivity" />
+        <activity android:name=".Recycler.RecyclerActivity" />
+        <activity android:name=".Recycler.GalleryActivity" />
         <activity android:name=".Fav.FavoriteActivity" />
         <activity android:name=".List.ProdukActivity" />
         <activity android:name=".DetailActivity" />
