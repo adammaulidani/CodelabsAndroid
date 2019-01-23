@@ -15,7 +15,6 @@ public class ListActivity extends AppCompatActivity {
 
 ListView listView;
 TypewriterRefreshLayout pulltorefresh;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

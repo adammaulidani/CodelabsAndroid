@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
+    android:background="@drawable/category_bg"
     app:cardUseCompatPadding="true">
 
     <FrameLayout
-        android:background="@drawable/card_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="24dp">
+            android:padding="20dp">
 
             <TextView
                 android:id="@+id/titleTextView"
@@ -51,7 +51,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="8dp"
-                        android:text="Check Our Product"
+                        android:text="Check Product"
                         android:background="@drawable/layout_bg"
                         android:layout_margin="8dp"
                         android:layout_gravity="center"

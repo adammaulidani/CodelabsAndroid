@@ -14,7 +14,7 @@
         android:layout_gravity="bottom"
         android:clipToPadding="false"
         android:overScrollMode="never"
-        android:paddingBottom="30dp"
+        android:paddingBottom="35dp"
         android:paddingEnd="60dp"
         android:paddingLeft="60dp"
         android:paddingRight="60dp"
